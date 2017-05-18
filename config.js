@@ -15,6 +15,10 @@ var config = {
         b: 0.2,
         c: 2 * Math.PI,
         d: 6
+    },
+    search:{
+        generations: 100,
+        min_value: 0.001
     }
 }
 module.exports = config;
